@@ -1,12 +1,18 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Gradle-specific Renovate presets",
-  "extends": ["github>Maxr1998-bot/.github//renovate-presets/default"],
+  "extends": [
+    "github>Maxr1998-bot/.github//renovate-presets/default"
+  ],
   "packageRules": [
     {
       "description": "Add the gradle label to Gradle dependency PRs",
-      "matchManagers": ["gradle"],
-      "addLabels": ["gradle"]
+      "matchManagers": [
+        "gradle"
+      ],
+      "addLabels": [
+        "gradle"
+      ]
     },
     {
       "description": "Group Kotlin dependencies",
@@ -30,6 +36,14 @@
       "groupName": "kotest",
       "matchPackagePrefixes": [
         "io.kotest"
+      ]
+    },
+    {
+      "description": "Group Exposed dependencies",
+      "groupName": "exposed",
+      "matchPackagePrefixes": [
+        "org.jetbrains.exposed",
+        "org.postgresql"
       ]
     }
   ]

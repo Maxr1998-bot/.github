@@ -4,9 +4,11 @@
   "extends": [
     "config:base",
     ":disableDependencyDashboard",
-    "group:testNonMajor",
+    "group:testNonMajor"
   ],
-  "addLabels": ["dependencies"],
+  "addLabels": [
+    "dependencies"
+  ],
   "internalChecksFilter": "strict",
-  "rebaseWhen": "conflicted",
+  "rebaseWhen": "conflicted"
 }
