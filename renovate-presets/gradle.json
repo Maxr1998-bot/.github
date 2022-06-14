@@ -1,0 +1,36 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Gradle-specific Renovate presets",
+  "extends": ["github>Maxr1998-bot/.github//renovate-presets/default"],
+  "packageRules": [
+    {
+      "description": "Add the gradle label to Gradle dependency PRs",
+      "matchManagers": ["gradle"],
+      "addLabels": ["gradle"]
+    },
+    {
+      "description": "Group Kotlin dependencies",
+      "groupName": "Kotlin",
+      "matchPackagePrefixes": [
+        "org.jetbrains.kotlin"
+      ],
+      "matchPackageNames": [
+        "com.google.devtools.ksp"
+      ]
+    },
+    {
+      "description": "Group Detekt dependencies",
+      "groupName": "detekt",
+      "matchPackagePrefixes": [
+        "io.gitlab.arturbosch.detekt"
+      ]
+    },
+    {
+      "description": "Group Kotest dependencies",
+      "groupName": "kotest",
+      "matchPackagePrefixes": [
+        "io.kotest"
+      ]
+    }
+  ]
+}
