@@ -18,9 +18,7 @@
       "description": "Group Kotlin dependencies",
       "groupName": "Kotlin",
       "matchPackagePrefixes": [
-        "org.jetbrains.kotlin"
-      ],
-      "matchPackageNames": [
+        "org.jetbrains.kotlin",
         "com.google.devtools.ksp"
       ]
     },
