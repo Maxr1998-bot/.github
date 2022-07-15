@@ -5,12 +5,24 @@
     "config:base",
     ":disableDependencyDashboard",
     ":prHourlyLimitNone",
-    "group:testNonMajor"
+    "group:testNonMajor",
+    "helpers:pinGitHubActionDigests"
   ],
   "prConcurrentLimit": 8,
   "addLabels": [
     "dependencies"
   ],
   "internalChecksFilter": "strict",
-  "rebaseWhen": "conflicted"
+  "rebaseWhen": "conflicted",
+  "packageRules": [
+    {
+      "description": "Add the github-actions label to Github Actions PRs",
+      "matchManagers": [
+        "github-actions"
+      ],
+      "addLabels": [
+        "github-actions"
+      ]
+    }
+  ]
 }
