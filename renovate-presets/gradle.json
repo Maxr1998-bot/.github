@@ -43,6 +43,13 @@
         "org.jetbrains.exposed",
         "org.postgresql"
       ]
+    },
+    {
+      "description": "Group Firebase dependencies",
+      "groupName": "firebase",
+      "matchPackagePrefixes": [
+        "com.google.firebase"
+      ]
     }
   ]
 }
