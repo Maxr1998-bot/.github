@@ -23,6 +23,18 @@
       "addLabels": [
         "github-actions"
       ]
+    },
+    {
+      "description": "Group minor GitHub Action updates",
+      "matchManagers": [
+        "github-actions"
+      ],
+      "groupName": "CI dependencies",
+      "groupSlug": "ci-deps",
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ]
     }
   ]
 }
