@@ -15,37 +15,17 @@
       ]
     },
     {
-      "description": "Group Kotlin dependencies",
-      "groupName": "Kotlin",
-      "matchPackagePrefixes": [
-        "org.jetbrains.kotlin",
-        "com.google.devtools.ksp"
-      ]
-    },
-    {
       "description": "Group Detekt dependencies",
       "groupName": "detekt",
+      "groupSlug": "detekt",
       "matchPackagePrefixes": [
         "io.gitlab.arturbosch.detekt"
       ]
     },
     {
-      "description": "Group Koin dependencies",
-      "groupName": "koin",
-      "matchPackagePrefixes": [
-        "io.insert-koin"
-      ]
-    },
-    {
-      "description": "Group Kotest dependencies",
-      "groupName": "kotest",
-      "matchPackagePrefixes": [
-        "io.kotest"
-      ]
-    },
-    {
       "description": "Group Exposed dependencies",
-      "groupName": "exposed",
+      "groupName": "Exposed",
+      "groupSlug": "exposed",
       "matchPackagePrefixes": [
         "org.jetbrains.exposed",
         "org.postgresql"
@@ -53,9 +33,35 @@
     },
     {
       "description": "Group Firebase dependencies",
-      "groupName": "firebase",
+      "groupName": "Firebase",
+      "groupSlug": "firebase",
       "matchPackagePrefixes": [
         "com.google.firebase"
+      ]
+    },
+    {
+      "description": "Group Koin dependencies",
+      "groupName": "Koin",
+      "groupSlug": "koin",
+      "matchPackagePrefixes": [
+        "io.insert-koin"
+      ]
+    },
+    {
+      "description": "Group Kotest dependencies",
+      "groupName": "Kotest",
+      "groupSlug": "kotest",
+      "matchPackagePrefixes": [
+        "io.kotest"
+      ]
+    },
+    {
+      "description": "Group Kotlin dependencies",
+      "groupName": "Kotlin",
+      "groupSlug": "kotlin",
+      "matchPackagePrefixes": [
+        "org.jetbrains.kotlin",
+        "com.google.devtools.ksp"
       ]
     }
   ]
