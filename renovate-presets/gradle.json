@@ -30,6 +30,13 @@
       ]
     },
     {
+      "description": "Group Koin dependencies",
+      "groupName": "koin",
+      "matchPackagePrefixes": [
+        "io.insert-koin"
+      ]
+    },
+    {
       "description": "Group Kotest dependencies",
       "groupName": "kotest",
       "matchPackagePrefixes": [
