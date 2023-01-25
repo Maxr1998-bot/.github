@@ -15,6 +15,15 @@
       ]
     },
     {
+      "description": "Add the gradle-wrapper label to Gradle wrapper PRs",
+      "matchManagers": [
+        "gradle-wrapper"
+      ],
+      "addLabels": [
+        "gradle-wrapper"
+      ]
+    },
+    {
       "description": "Group Detekt dependencies",
       "groupName": "detekt",
       "groupSlug": "detekt",
