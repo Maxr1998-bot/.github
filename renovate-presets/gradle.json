@@ -65,12 +65,28 @@
       ]
     },
     {
-      "description": "Group Kotlin dependencies",
+      "description": "Group Kotlin and KSP dependencies",
       "groupName": "Kotlin",
       "groupSlug": "kotlin",
       "matchPackageNames": [
         "org.jetbrains.kotlin**",
         "com.google.devtools.ksp**"
+      ]
+    },
+    {
+      "description": "Group kotlinx.coroutines dependencies",
+      "groupName": "kotlinx.coroutines",
+      "groupSlug": "kotlinx-coroutines",
+      "matchPackageNames": [
+        "org.jetbrains.kotlinx:kotlinx-coroutines**"
+      ]
+    },
+    {
+      "description": "Group kotlinx.serialization dependencies",
+      "groupName": "kotlinx.serialization",
+      "groupSlug": "kotlinx-serialization",
+      "matchPackageNames": [
+        "org.jetbrains.kotlinx:kotlinx-serialization**"
       ]
     }
   ]
