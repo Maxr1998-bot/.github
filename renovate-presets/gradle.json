@@ -65,12 +65,11 @@
       ]
     },
     {
-      "description": "Group Kotlin and KSP dependencies",
+      "description": "Group Kotlin dependencies",
       "groupName": "Kotlin",
       "groupSlug": "kotlin",
       "matchPackageNames": [
-        "org.jetbrains.kotlin**",
-        "com.google.devtools.ksp**"
+        "org.jetbrains.kotlin**"
       ]
     },
     {
