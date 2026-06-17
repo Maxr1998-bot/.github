@@ -69,7 +69,8 @@
       "groupName": "Kotlin",
       "groupSlug": "kotlin",
       "matchPackageNames": [
-        "org.jetbrains.kotlin**"
+        "org.jetbrains.kotlin**",
+        "de.infix.testBalloon**"
       ]
     },
     {
